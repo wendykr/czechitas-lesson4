@@ -108,6 +108,8 @@ button.addEventListener('click',
 		
 		let osoba = document.querySelector('.osoba');
 		osoba.innerHTML = '<strong>' + person.name + '</strong>' + ' ' + person.age + ' ' + 'let';
+		console.log(osoba);
+		console.log(person);
 		
 		button.classList.add('hidden');
 		}
